@@ -248,7 +248,7 @@ bayes.brms <- brm(alive | trials(total) ~ 1,
                   chains = 2, # nb of chains
                   iter = 5000, # nb of iterations, including burnin
                   warmup = 1000, # burnin
-                  thin = 1)
+                  thin = 1) #
 ```
 ---
 # Priors
